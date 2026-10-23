@@ -2,38 +2,67 @@
 
 Un dossier par article (nom du dossier = fin de l'URL de l'article sur [moncoachdata.com/blog](https://moncoachdata.com/blog/)). Chaque dossier contient le notebook Jupyter (sans sorties) et les données qu'il utilise.
 
-Les notebooks s'ouvrent dans Google Colab (lien dans le tableau). Seuls les notebooks avec des données à héberger ou les projets conséquents sont versionnés ici : les petits tutoriels sans données restent sur Colab seul.
+Les notebooks s'ouvrent dans Google Colab (lien dans les tableaux). Seuls les notebooks avec des données à héberger ou les projets conséquents sont versionnés ici : les petits tutoriels sans données restent sur Colab seul.
+
+Le dépôt reste à plat (un dossier par article) pour que les liens existants ne cassent pas ; seul ce README classe les articles :
+
+- **Projets complets** : un jeu de données réel et une démarche de bout en bout.
+- **Tutoriels** : une notion ou une bibliothèque, avec des exemples courts, classés par thème (Python, pandas et NumPy, visualisation, Machine Learning).
+
+## Projets complets
+
+Un jeu de données réel, une question, puis l'analyse ou le modèle de bout en bout.
 
 | Article | Notebook | Données |
 |---|---|---|
-| [Python vs R : le duel](https://moncoachdata.com/blog/duel-python-vs-r/) | [Colab](https://colab.research.google.com/drive/1cGyarAWJzh33jz8xSlqJVwH-aLUEB94J) | `nba_2013.csv` hébergé dans le dossier |
-| [Visualisation de données en Python: comparaison d'outils](https://moncoachdata.com/blog/visualisation-de-donnees-avec-python/) | [Colab](https://colab.research.google.com/drive/1BuXHjqzCt1XcMG4nfU-sQwWb0ShCRPn7) | OpenFlights (téléchargées depuis son dépôt GitHub) |
-| [SQLite avec Python : Analyse de bases de données](https://moncoachdata.com/blog/sqlite-python/) | [Colab](https://colab.research.google.com/drive/1HbO3iJEKh-EcaU2-R22h6f8BHrcEre6p) | OpenFlights (CSV téléchargés, base SQLite construite dans le notebook) |
-| [12 techniques utiles de manipulation de données avec la librairie Pandas](https://moncoachdata.com/blog/manipulation-de-donnees-avec-pandas/) | [Colab](https://colab.research.google.com/drive/16jZRjww6O6mhF3zZGDyCMN1smqCk1XZc) | `train.csv` (Loan Prediction) hébergé dans le dossier |
-| [Apprendre le Machine Learning avec Python et Scikit-learn](https://moncoachdata.com/blog/apprendre-machine-learning-avec-python/) | [Colab](https://colab.research.google.com/drive/1TEq9rMhRGo7F9KvQuBahqdWYQDZAHSl9?usp=sharing) | `games.csv` hébergé dans le dossier (jeux de société BoardGameGeek, scrapés par Sean Beck) |
-| [10 outils de manipulation et traitement d'images en Python](https://moncoachdata.com/blog/10-outils-de-traitement-dimages-en-python/) | [Colab](https://colab.research.google.com/drive/10KCQTMK7olmd3UFV_PaKiEZpkEPUCc99) | — |
-| [Boucles FOR en Python : guide complet, des bases à l'avancé](https://moncoachdata.com/blog/python-boucles-for/) | [Colab](https://colab.research.google.com/drive/1A1SXVPJ28JvCHkyE2XOVcH8Q3a3peqvH) | iris (seaborn-data) et `gdp.csv` créé dans le notebook |
-| [Données mutables et immuables Python](https://moncoachdata.com/blog/donnees-mutables-et-immuables-python/) | [Colab](https://colab.research.google.com/drive/1UyNixcSRM5a7rZ0u325AnFRZeHIVaavx) | — |
-| [Valeurs manquantes Python : détecter et traiter avec Pandas](https://moncoachdata.com/blog/nettoyage-de-donnees-python/) | [Colab](https://colab.research.google.com/drive/13tYEAC211M6bAJYrCUmJ190kDsbZihCU?usp=sharing) | — |
-| [Machine Learning : l'algorithme des k plus proches voisins](https://moncoachdata.com/blog/algorithme-des-k-plus-proches-voisins/) | [Colab](https://colab.research.google.com/drive/11DAn25PiKLf2n30hlT6mZ7-UiQymOoGI?usp=sharing) | `movies_recommendation_data.csv` (30 films, données d'illustration) |
-| [Les structures de données Python](https://moncoachdata.com/blog/devenir-python-ninja-structures-de-donnees/) | [Colab](https://colab.research.google.com/drive/1u9UhBkQZKPljNF6WzCwXc7L9HLprMu39) | — |
-| [Exploration de données statistiques avec Pandas et Seaborn](https://moncoachdata.com/blog/exploration-de-donnees-statistiques/) | [Colab](https://colab.research.google.com/drive/1sipHbmKTSaBgfkOVk3iGalTGnk_Po6wF?usp=sharing) | `athlete_events` hébergé dans le dossier en deux parties de 20 Mo, `athlete_events_partie1.csv` et `athlete_events_partie2.csv` ([Kaggle : 120 years of Olympic history](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results)), utilisé aussi par l'article « Extraction d'informations avec Pandas et Seaborn » |
-| [Programmation Orientée Objet en Python](https://moncoachdata.com/blog/programmation-oriente-objet-en-python/) | [Colab](https://colab.research.google.com/drive/1_Qn8PjW_NQcPK0KCKXwFXO4hxQlEoNJc) | — |
-| [Analyse exploratoire de données avec Pandas](https://moncoachdata.com/blog/analyse-exploratoire-de-donnees/) | [Colab](https://colab.research.google.com/drive/1L9kMMfIKDmOiSzMcXVg9nFosViC4pLLR?usp=sharing) | — |
-| [Les principaux modèles de Machine Learning expliqués simplement](https://moncoachdata.com/blog/modeles-de-machine-learning-expliques/) | [Colab](https://colab.research.google.com/drive/18Tp3kiGczR7PlHXGJSAVSvgahqPZsOh2?usp=sharing) | Datasets intégrés à scikit-learn |
-| [Modèle ARIMA avec Python - Prévisions de séries temporelles](https://moncoachdata.com/blog/modele-arima-avec-python/) | [Colab](https://colab.research.google.com/drive/1BgZOgAW4PEkqUtlp1JSmcWD-C69Jmv7w?usp=sharing) | Jeu de données seaborn (flights) |
-| [Comment scraper les produits Amazon avec Python ?](https://moncoachdata.com/blog/scraper-les-produits-amazon-avec-python/) | [Colab](https://colab.research.google.com/drive/19674OJt9PBTiSjNXuwKtfYSzUgFxZnUW?usp=sharing) | Page de test fictive créée dans le notebook |
-| [Matplotlib - Visualisation de données](https://moncoachdata.com/blog/matplotlib-visualisation-de-donnees/) | [Colab](https://colab.research.google.com/drive/1vOEvw6w4GEYkTX1t-oRHnC7KOhV-MqOo) | `population.csv` ([datasets/population](https://github.com/datasets/population)) et `countries.json` ([mledoze/countries](https://github.com/mledoze/countries)) hébergés dans le dossier, copies figées |
 | [Prédiction du prix des taxis à New York : analyse exploratoire et création de variables](https://moncoachdata.com/blog/prediction-du-prix-des-taxis-analyse/) | [Colab](https://colab.research.google.com/drive/1-43206q6zcnh7JQBYSIV-a7S9ayIdky5) | Données Kaggle (à télécharger, non hébergées) ; notebook versionné dans ce dossier |
 | [Prédire le prix des taxis à New York avec le Machine Learning (partie 2)](https://moncoachdata.com/blog/prix-des-taxis-modelisation-predictive/) | [Colab](https://colab.research.google.com/drive/1BrKJs_2n8WvaMt4evLkxN8OddXjIbY_D) | Données Kaggle (à télécharger, non hébergées) ; notebook versionné dans ce dossier |
-| [Extraction d'informations avec Pandas et Seaborn : les athlètes olympiques](https://moncoachdata.com/blog/extraction-dinformations-avec-pandas-et-seaborn/) | [Colab](https://colab.research.google.com/drive/17Uv4von_BGcar_NGmnX901sGGCcNwn1b?usp=sharing) | `athlete_events` lu depuis le dossier `exploration-de-donnees-statistiques` (deux parties) |
 | [Prédiction des maladies cardiaques : SVM, kNN et réseau de neurones](https://moncoachdata.com/blog/prediction-des-maladies-cardiaques/) | [Colab](https://colab.research.google.com/drive/1VYdMXrWJLZV08fmh9WPnY2ZDVmxSa9Wg?usp=sharing) | `SAheart.csv` hébergé dans le dossier (South African Heart Disease, [OpenML 1498](https://www.openml.org/d/1498)) |
-| [25 extraits de code Python de référence pour ton travail quotidien](https://moncoachdata.com/blog/25-extraits-de-code-python/) | [Colab](https://colab.research.google.com/drive/17wRbkMRvdsgd56w5rNPDchIg44U_rdzo) | — |
-| [22 astuces Pandas qui rendront ton travail plus efficace](https://moncoachdata.com/blog/10-astuces-pandas-python/) | [Colab](https://colab.research.google.com/drive/1GgiSk3nEW7nLFEwKSMOeUwWYZPJsK3dv) | — |
-| [Guide des visualisations de données Python avec Seaborn et Matplotlib](https://moncoachdata.com/blog/guide-visualisations-de-donnees-python/) | [Colab](https://colab.research.google.com/drive/1xAylIgntlsir6W3kLGztbjl5c64kLSS7?usp=sharing) | `black-friday.csv` hébergé dans le dossier (ventes du Black Friday, concours Analytics Vidhya, 550 068 lignes, 25 Mo) ; notebook versionné dans ce dossier |
 | [Prédiction du prix des crypto monnaies avec du Deep Learning](https://moncoachdata.com/blog/prediction-du-prix-des-crypto-monnaies/) | [Colab](https://colab.research.google.com/drive/1XNjyfC1fSXiKIVP__uja6aCNqMI9WulM?usp=sharing) | `btc-eur-daily.csv` hébergé dans le dossier (cours journaliers BTC/EUR de Binance du 01/01/2021 au 21/10/2026, copie figée pour la reproductibilité ; données de marché publiques de l'API Binance) |
 | [Analyse de données sur le Covid-19 avec Python, NumPy et Pandas](https://moncoachdata.com/blog/analyse-de-donnees-sur-le-covid-19/) | [Colab](https://colab.research.google.com/drive/1fg95rGLvua2RCmoBzYzYppnabykay7LU?usp=sharing) | `time_series_covid_19_confirmed.csv`, `time_series_covid_19_deaths.csv` et `time_series_covid_19_recovered.csv` hébergés dans le dossier (université Johns Hopkins CSSE, [CC BY 4.0](https://github.com/CSSEGISandData/COVID-19), version du 14/06/2020 ; fichiers `time_series_covid19_*_global.csv` du dépôt, renommés comme sur [Kaggle](https://www.kaggle.com/datasets/sudalairajkumar/novel-corona-virus-2019-dataset) ; copie figée car cette version n'existe plus que dans l'historique du dépôt) |
+| [Exploration de données statistiques avec Pandas et Seaborn](https://moncoachdata.com/blog/exploration-de-donnees-statistiques/) | [Colab](https://colab.research.google.com/drive/1sipHbmKTSaBgfkOVk3iGalTGnk_Po6wF?usp=sharing) | `athlete_events` hébergé dans le dossier en deux parties de 20 Mo, `athlete_events_partie1.csv` et `athlete_events_partie2.csv` ([Kaggle : 120 years of Olympic history](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results)), utilisé aussi par l'article « Extraction d'informations avec Pandas et Seaborn » |
+| [Extraction d'informations avec Pandas et Seaborn : les athlètes olympiques](https://moncoachdata.com/blog/extraction-dinformations-avec-pandas-et-seaborn/) | [Colab](https://colab.research.google.com/drive/17Uv4von_BGcar_NGmnX901sGGCcNwn1b?usp=sharing) | `athlete_events` lu depuis le dossier `exploration-de-donnees-statistiques` (deux parties) |
+
+## Tutoriels : Python
+
+| Article | Notebook | Données |
+|---|---|---|
+| [Boucles FOR en Python : guide complet, des bases à l'avancé](https://moncoachdata.com/blog/python-boucles-for/) | [Colab](https://colab.research.google.com/drive/1A1SXVPJ28JvCHkyE2XOVcH8Q3a3peqvH) | iris (seaborn-data) et `gdp.csv` créé dans le notebook |
+| [Données mutables et immuables Python](https://moncoachdata.com/blog/donnees-mutables-et-immuables-python/) | [Colab](https://colab.research.google.com/drive/1UyNixcSRM5a7rZ0u325AnFRZeHIVaavx) | — |
+| [Les structures de données Python](https://moncoachdata.com/blog/devenir-python-ninja-structures-de-donnees/) | [Colab](https://colab.research.google.com/drive/1u9UhBkQZKPljNF6WzCwXc7L9HLprMu39) | — |
+| [Programmation Orientée Objet en Python](https://moncoachdata.com/blog/programmation-oriente-objet-en-python/) | [Colab](https://colab.research.google.com/drive/1_Qn8PjW_NQcPK0KCKXwFXO4hxQlEoNJc) | — |
+| [25 extraits de code Python de référence pour ton travail quotidien](https://moncoachdata.com/blog/25-extraits-de-code-python/) | [Colab](https://colab.research.google.com/drive/17wRbkMRvdsgd56w5rNPDchIg44U_rdzo) | — |
+| [Comment scraper les produits Amazon avec Python ?](https://moncoachdata.com/blog/scraper-les-produits-amazon-avec-python/) | [Colab](https://colab.research.google.com/drive/19674OJt9PBTiSjNXuwKtfYSzUgFxZnUW?usp=sharing) | Page de test fictive créée dans le notebook |
+| [SQLite avec Python : Analyse de bases de données](https://moncoachdata.com/blog/sqlite-python/) | [Colab](https://colab.research.google.com/drive/1HbO3iJEKh-EcaU2-R22h6f8BHrcEre6p) | OpenFlights (CSV téléchargés, base SQLite construite dans le notebook) |
+| [10 outils de manipulation et traitement d'images en Python](https://moncoachdata.com/blog/10-outils-de-traitement-dimages-en-python/) | [Colab](https://colab.research.google.com/drive/10KCQTMK7olmd3UFV_PaKiEZpkEPUCc99) | — |
+| [Python vs R : le duel](https://moncoachdata.com/blog/duel-python-vs-r/) | [Colab](https://colab.research.google.com/drive/1cGyarAWJzh33jz8xSlqJVwH-aLUEB94J) | `nba_2013.csv` hébergé dans le dossier |
+
+## Tutoriels : pandas et NumPy
+
+| Article | Notebook | Données |
+|---|---|---|
+| [12 techniques utiles de manipulation de données avec la librairie Pandas](https://moncoachdata.com/blog/manipulation-de-donnees-avec-pandas/) | [Colab](https://colab.research.google.com/drive/16jZRjww6O6mhF3zZGDyCMN1smqCk1XZc) | `train.csv` (Loan Prediction) hébergé dans le dossier |
+| [Valeurs manquantes Python : détecter et traiter avec Pandas](https://moncoachdata.com/blog/nettoyage-de-donnees-python/) | [Colab](https://colab.research.google.com/drive/13tYEAC211M6bAJYrCUmJ190kDsbZihCU?usp=sharing) | — |
+| [22 astuces Pandas qui rendront ton travail plus efficace](https://moncoachdata.com/blog/10-astuces-pandas-python/) | [Colab](https://colab.research.google.com/drive/1GgiSk3nEW7nLFEwKSMOeUwWYZPJsK3dv) | — |
 | [12 fonctions Pandas et NumPy à ne pas manquer](https://moncoachdata.com/blog/pandas-et-numpy-pour-la-data-science/) | [Colab](https://colab.research.google.com/drive/1DBCa8LRpvJvZtsuAOcVRDciS8MFLgNR8?usp=sharing) | `AirPassengers.csv` hébergé dans le dossier (nombre mensuel de passagers aériens 1949-1960, ex-dépôt Datasets) |
+| [Analyse exploratoire de données avec Pandas](https://moncoachdata.com/blog/analyse-exploratoire-de-donnees/) | [Colab](https://colab.research.google.com/drive/1L9kMMfIKDmOiSzMcXVg9nFosViC4pLLR?usp=sharing) | — |
+
+## Tutoriels : visualisation de données
+
+| Article | Notebook | Données |
+|---|---|---|
+| [Matplotlib - Visualisation de données](https://moncoachdata.com/blog/matplotlib-visualisation-de-donnees/) | [Colab](https://colab.research.google.com/drive/1vOEvw6w4GEYkTX1t-oRHnC7KOhV-MqOo) | `population.csv` ([datasets/population](https://github.com/datasets/population)) et `countries.json` ([mledoze/countries](https://github.com/mledoze/countries)) hébergés dans le dossier, copies figées |
+| [Visualisation de données en Python: comparaison d'outils](https://moncoachdata.com/blog/visualisation-de-donnees-avec-python/) | [Colab](https://colab.research.google.com/drive/1BuXHjqzCt1XcMG4nfU-sQwWb0ShCRPn7) | OpenFlights (téléchargées depuis son dépôt GitHub) |
+| [Guide des visualisations de données Python avec Seaborn et Matplotlib](https://moncoachdata.com/blog/guide-visualisations-de-donnees-python/) | [Colab](https://colab.research.google.com/drive/1xAylIgntlsir6W3kLGztbjl5c64kLSS7?usp=sharing) | `black-friday.csv` hébergé dans le dossier (ventes du Black Friday, concours Analytics Vidhya, 550 068 lignes, 25 Mo) ; notebook versionné dans ce dossier |
+
+## Tutoriels : Machine Learning
+
+| Article | Notebook | Données |
+|---|---|---|
+| [Apprendre le Machine Learning avec Python et Scikit-learn](https://moncoachdata.com/blog/apprendre-machine-learning-avec-python/) | [Colab](https://colab.research.google.com/drive/1TEq9rMhRGo7F9KvQuBahqdWYQDZAHSl9?usp=sharing) | `games.csv` hébergé dans le dossier (jeux de société BoardGameGeek, scrapés par Sean Beck) |
+| [Machine Learning : l'algorithme des k plus proches voisins](https://moncoachdata.com/blog/algorithme-des-k-plus-proches-voisins/) | [Colab](https://colab.research.google.com/drive/11DAn25PiKLf2n30hlT6mZ7-UiQymOoGI?usp=sharing) | `movies_recommendation_data.csv` (30 films, données d'illustration) |
+| [Les principaux modèles de Machine Learning expliqués simplement](https://moncoachdata.com/blog/modeles-de-machine-learning-expliques/) | [Colab](https://colab.research.google.com/drive/18Tp3kiGczR7PlHXGJSAVSvgahqPZsOh2?usp=sharing) | Datasets intégrés à scikit-learn |
+| [Modèle ARIMA avec Python - Prévisions de séries temporelles](https://moncoachdata.com/blog/modele-arima-avec-python/) | [Colab](https://colab.research.google.com/drive/1BgZOgAW4PEkqUtlp1JSmcWD-C69Jmv7w?usp=sharing) | Jeu de données seaborn (flights) |
 
 ## Règle pour les données
 - Source publique stable (Kaggle, UCI, OpenFlights, seaborn-data, NYC TLC) : on pointe vers la source dans le notebook, on ne copie pas.
