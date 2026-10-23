@@ -27,20 +27,23 @@ Un jeu de données réel, une question, puis l'analyse ou le modèle de bout en 
 
 | Article | Notebook | Données |
 |---|---|---|
-| [Boucles FOR en Python : guide complet, des bases à l'avancé](https://moncoachdata.com/blog/python-boucles-for/) | [Colab](https://colab.research.google.com/drive/1A1SXVPJ28JvCHkyE2XOVcH8Q3a3peqvH) | iris (seaborn-data) et `gdp.csv` créé dans le notebook |
+| [Boucles FOR en Python : guide complet, des bases à l'avancé](https://moncoachdata.com/blog/python-boucles-for/) | [Colab](https://colab.research.google.com/drive/1A1SXVPJ28JvCHkyE2XOVcH8Q3a3peqvH) | `iris.csv` hébergé dans le dossier (copie du jeu de données public de seaborn-data) et `gdp.csv` créé dans le notebook |
 | [Données mutables et immuables Python](https://moncoachdata.com/blog/donnees-mutables-et-immuables-python/) | [Colab](https://colab.research.google.com/drive/1UyNixcSRM5a7rZ0u325AnFRZeHIVaavx) | — |
 | [Les structures de données Python](https://moncoachdata.com/blog/devenir-python-ninja-structures-de-donnees/) | [Colab](https://colab.research.google.com/drive/1u9UhBkQZKPljNF6WzCwXc7L9HLprMu39) | — |
 | [Programmation Orientée Objet en Python](https://moncoachdata.com/blog/programmation-oriente-objet-en-python/) | [Colab](https://colab.research.google.com/drive/1_Qn8PjW_NQcPK0KCKXwFXO4hxQlEoNJc) | — |
 | [25 extraits de code Python de référence pour ton travail quotidien](https://moncoachdata.com/blog/25-extraits-de-code-python/) | [Colab](https://colab.research.google.com/drive/17wRbkMRvdsgd56w5rNPDchIg44U_rdzo) | — |
 | [Comment scraper les produits Amazon avec Python ?](https://moncoachdata.com/blog/scraper-les-produits-amazon-avec-python/) | [Colab](https://colab.research.google.com/drive/19674OJt9PBTiSjNXuwKtfYSzUgFxZnUW?usp=sharing) | Page de test fictive créée dans le notebook |
-| [SQLite avec Python : Analyse de bases de données](https://moncoachdata.com/blog/sqlite-python/) | [Colab](https://colab.research.google.com/drive/1HbO3iJEKh-EcaU2-R22h6f8BHrcEre6p) | OpenFlights (CSV téléchargés, base SQLite construite dans le notebook) |
+| [SQLite avec Python : Analyse de bases de données](https://moncoachdata.com/blog/sqlite-python/) | [Colab](https://colab.research.google.com/drive/1HbO3iJEKh-EcaU2-R22h6f8BHrcEre6p) | `airlines.dat`, `airports.dat` et `routes.dat` hébergés dans le dossier ([OpenFlights](https://openflights.org/data), licence Open Database License, à créditer), base SQLite construite dans le notebook ; lus aussi par l'article « Visualisation de données en Python » |
 | [10 outils de manipulation et traitement d'images en Python](https://moncoachdata.com/blog/10-outils-de-traitement-dimages-en-python/) | [Colab](https://colab.research.google.com/drive/10KCQTMK7olmd3UFV_PaKiEZpkEPUCc99) | — |
 | [Python vs R : le duel](https://moncoachdata.com/blog/duel-python-vs-r/) | [Colab](https://colab.research.google.com/drive/1cGyarAWJzh33jz8xSlqJVwH-aLUEB94J) | `nba_2013.csv` hébergé dans le dossier |
+| [5 astuces de traitement de données avec Python](https://moncoachdata.com/blog/5-methodes-traitement-de-donnees-avec-python/) | [Colab](https://colab.research.google.com/drive/1oejU50ip7XQRYqCz2rLH_YZhWiutor4E) | Listes et DataFrames créés dans le notebook |
 
 ## Tutoriels : pandas et NumPy
 
 | Article | Notebook | Données |
 |---|---|---|
+| [SQL vs pandas : le guide pour comparer les deux](https://moncoachdata.com/blog/sql-vs-pandas/) | [Colab](https://colab.research.google.com/drive/1EXtuI7fnP1CvGhlJ2IS0p6nPyoeGn0sK?usp=sharing) | `titanic.csv` hébergé dans le dossier (891 passagers, copie du jeu de données public de [seaborn-data](https://github.com/mwaskom/seaborn-data), identique octet pour octet) |
+| [Mémo Pandas pour le traitement de données](https://moncoachdata.com/blog/pandas-pour-le-traitement-de-donnees/) | [Colab](https://colab.research.google.com/drive/1UdTqvWOlL_n7dPLUTUYzEcNvf7S7eCkG?usp=sharing) | DataFrames créés dans le notebook |
 | [12 techniques utiles de manipulation de données avec la librairie Pandas](https://moncoachdata.com/blog/manipulation-de-donnees-avec-pandas/) | [Colab](https://colab.research.google.com/drive/16jZRjww6O6mhF3zZGDyCMN1smqCk1XZc) | `train.csv` (Loan Prediction) hébergé dans le dossier |
 | [Valeurs manquantes Python : détecter et traiter avec Pandas](https://moncoachdata.com/blog/nettoyage-de-donnees-python/) | [Colab](https://colab.research.google.com/drive/13tYEAC211M6bAJYrCUmJ190kDsbZihCU?usp=sharing) | — |
 | [22 astuces Pandas qui rendront ton travail plus efficace](https://moncoachdata.com/blog/10-astuces-pandas-python/) | [Colab](https://colab.research.google.com/drive/1GgiSk3nEW7nLFEwKSMOeUwWYZPJsK3dv) | — |
@@ -52,7 +55,7 @@ Un jeu de données réel, une question, puis l'analyse ou le modèle de bout en 
 | Article | Notebook | Données |
 |---|---|---|
 | [Matplotlib - Visualisation de données](https://moncoachdata.com/blog/matplotlib-visualisation-de-donnees/) | [Colab](https://colab.research.google.com/drive/1vOEvw6w4GEYkTX1t-oRHnC7KOhV-MqOo) | `population.csv` ([datasets/population](https://github.com/datasets/population)) et `countries.json` ([mledoze/countries](https://github.com/mledoze/countries)) hébergés dans le dossier, copies figées |
-| [Visualisation de données en Python: comparaison d'outils](https://moncoachdata.com/blog/visualisation-de-donnees-avec-python/) | [Colab](https://colab.research.google.com/drive/1BuXHjqzCt1XcMG4nfU-sQwWb0ShCRPn7) | OpenFlights (téléchargées depuis son dépôt GitHub) |
+| [Visualisation de données en Python: comparaison d'outils](https://moncoachdata.com/blog/visualisation-de-donnees-avec-python/) | [Colab](https://colab.research.google.com/drive/1BuXHjqzCt1XcMG4nfU-sQwWb0ShCRPn7) | OpenFlights : fichiers lus depuis le dossier `sqlite-python` |
 | [Guide des visualisations de données Python avec Seaborn et Matplotlib](https://moncoachdata.com/blog/guide-visualisations-de-donnees-python/) | [Colab](https://colab.research.google.com/drive/1xAylIgntlsir6W3kLGztbjl5c64kLSS7?usp=sharing) | `black-friday.csv` hébergé dans le dossier (ventes du Black Friday, concours Analytics Vidhya, 550 068 lignes, 25 Mo) ; notebook versionné dans ce dossier |
 
 ## Tutoriels : Machine Learning
@@ -62,8 +65,14 @@ Un jeu de données réel, une question, puis l'analyse ou le modèle de bout en 
 | [Apprendre le Machine Learning avec Python et Scikit-learn](https://moncoachdata.com/blog/apprendre-machine-learning-avec-python/) | [Colab](https://colab.research.google.com/drive/1TEq9rMhRGo7F9KvQuBahqdWYQDZAHSl9?usp=sharing) | `games.csv` hébergé dans le dossier (jeux de société BoardGameGeek, scrapés par Sean Beck) |
 | [Machine Learning : l'algorithme des k plus proches voisins](https://moncoachdata.com/blog/algorithme-des-k-plus-proches-voisins/) | [Colab](https://colab.research.google.com/drive/11DAn25PiKLf2n30hlT6mZ7-UiQymOoGI?usp=sharing) | `movies_recommendation_data.csv` (30 films, données d'illustration) |
 | [Les principaux modèles de Machine Learning expliqués simplement](https://moncoachdata.com/blog/modeles-de-machine-learning-expliques/) | [Colab](https://colab.research.google.com/drive/18Tp3kiGczR7PlHXGJSAVSvgahqPZsOh2?usp=sharing) | Datasets intégrés à scikit-learn |
-| [Modèle ARIMA avec Python - Prévisions de séries temporelles](https://moncoachdata.com/blog/modele-arima-avec-python/) | [Colab](https://colab.research.google.com/drive/1BgZOgAW4PEkqUtlp1JSmcWD-C69Jmv7w?usp=sharing) | Jeu de données seaborn (flights) |
+| [Modèle ARIMA avec Python - Prévisions de séries temporelles](https://moncoachdata.com/blog/modele-arima-avec-python/) | [Colab](https://colab.research.google.com/drive/1BgZOgAW4PEkqUtlp1JSmcWD-C69Jmv7w?usp=sharing) | `flights.csv` hébergé dans le dossier (copie du jeu de données `flights` de seaborn-data) |
+| [6 domaines mathématiques du Machine Learning](https://moncoachdata.com/blog/mathematiques-du-machine-learning/) | [Colab](https://colab.research.google.com/drive/1y-ZlWtt22EH7EnqotqHb4zGbUf7ZGkvO?usp=sharing) | Vecteurs et matrices créés dans le notebook |
+| [Régression linéaire avec Python, de zéro à scikit-learn](https://moncoachdata.com/blog/regression-lineaire-avec-python/) | [Colab](https://colab.research.google.com/drive/1PRejRxdrs75qT7AnUzZCSWvhZkrCYr9u?usp=sharing) | Jeu de données généré aléatoirement dans le notebook |
+| [6 distributions de probabilité pour la Data Science](https://moncoachdata.com/blog/6-distributions-de-probabilite-data-science/) | [Colab](https://colab.research.google.com/drive/1RSOmN_8dzYSv0A3iIp51ntTa7gZJfwnU) | Tableaux créés dans le notebook |
+| [Construire un chatbot en Python avec le Deep Learning](https://moncoachdata.com/blog/construire-un-chatbot-en-python/) | [Colab](https://colab.research.google.com/drive/1eoJyEt0pJdp7AVTLkN7La9JkmyVhdafa?usp=sharing) | Fichier d'intentions défini dans le notebook |
+| [Réseau de neurones convolutif : visualiser les activations](https://moncoachdata.com/blog/visualisation-reseau-de-neurones-convolutif/) | [Colab](https://colab.research.google.com/drive/19z_tAyQuNJ3DG-sxI0d_vfvg-wQup0LS) | Images de formes (cercles, carrés, triangles) générées dans le notebook |
 
 ## Règle pour les données
-- Source publique stable (Kaggle, UCI, OpenFlights, seaborn-data, NYC TLC) : on pointe vers la source dans le notebook, on ne copie pas.
-- On copie seulement si le fichier est petit (moins de 1 Mo environ), qu'il n'existe pas de source stable et que la licence le permet, ou si c'est un fichier à moi.
+- Fichier de moins de 25 Mo dont la licence permet la redistribution : on l'héberge dans le dossier de l'article, même s'il existe ailleurs (Kaggle, seaborn-data, UCI…). Un lien vers un dépôt tiers peut casser : le dépôt seaborn-data prévient lui-même que ses jeux de données peuvent changer ou disparaître.
+- Fichier de plus de 25 Mo : on le coupe en deux parties de 20 Mo environ (comme `athlete_events`).
+- Fichier trop gros pour GitHub (par exemple les taxis de New York, plusieurs Go) : on pointe vers la source dans le notebook, sans le copier.
