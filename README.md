@@ -2,6 +2,8 @@
 
 Un dossier par article (nom du dossier = fin de l'URL de l'article sur [moncoachdata.com/blog](https://moncoachdata.com/blog/)). Chaque dossier contient le notebook Jupyter (sans sorties) et les données qu'il utilise.
 
+Pour aller plus loin que les articles, retrouve les formations de [DataXp](https://dataxp.fr?utm_source=github&utm_medium=readme&utm_campaign=blog-notebooks).
+
 Les notebooks s'ouvrent dans Google Colab (lien dans les tableaux). Seuls les notebooks avec des données à héberger ou les projets conséquents sont versionnés ici : les petits tutoriels sans données restent sur Colab seul.
 
 Le dépôt reste à plat (un dossier par article) pour que les liens existants ne cassent pas ; seul ce README classe les articles :
@@ -33,10 +35,12 @@ Un jeu de données réel, une question, puis l'analyse ou le modèle de bout en 
 | [Programmation Orientée Objet en Python](https://moncoachdata.com/blog/programmation-oriente-objet-en-python/) | [Colab](https://colab.research.google.com/drive/1_Qn8PjW_NQcPK0KCKXwFXO4hxQlEoNJc) | — |
 | [25 extraits de code Python de référence pour ton travail quotidien](https://moncoachdata.com/blog/25-extraits-de-code-python/) | [Colab](https://colab.research.google.com/drive/17wRbkMRvdsgd56w5rNPDchIg44U_rdzo) | — |
 | [Comment scraper les produits Amazon avec Python ?](https://moncoachdata.com/blog/scraper-les-produits-amazon-avec-python/) | [Colab](https://colab.research.google.com/drive/19674OJt9PBTiSjNXuwKtfYSzUgFxZnUW?usp=sharing) | Page de test fictive créée dans le notebook |
+| [Web scraping avec Pandas](https://moncoachdata.com/blog/web-scraping-avec-pandas/) | [Colab](https://colab.research.google.com/drive/1zwxw07pvE_CkksYhI5UpiW07D0QVI6SC?usp=sharing) | — (lecture en direct de Wikipédia, avec un en-tête `User-Agent`) |
 | [SQLite avec Python : Analyse de bases de données](https://moncoachdata.com/blog/sqlite-python/) | [Colab](https://colab.research.google.com/drive/1HbO3iJEKh-EcaU2-R22h6f8BHrcEre6p) | `airlines.dat`, `airports.dat` et `routes.dat` hébergés dans le dossier ([OpenFlights](https://openflights.org/data), licence Open Database License, à créditer), base SQLite construite dans le notebook ; lus aussi par l'article « Visualisation de données en Python » |
 | [10 outils de manipulation et traitement d'images en Python](https://moncoachdata.com/blog/10-outils-de-traitement-dimages-en-python/) | [Colab](https://colab.research.google.com/drive/10KCQTMK7olmd3UFV_PaKiEZpkEPUCc99) | — |
 | [Python vs R : le duel](https://moncoachdata.com/blog/duel-python-vs-r/) | [Colab](https://colab.research.google.com/drive/1cGyarAWJzh33jz8xSlqJVwH-aLUEB94J) | `nba_2013.csv` hébergé dans le dossier |
 | [5 astuces de traitement de données avec Python](https://moncoachdata.com/blog/5-methodes-traitement-de-donnees-avec-python/) | [Colab](https://colab.research.google.com/drive/1oejU50ip7XQRYqCz2rLH_YZhWiutor4E) | Listes et DataFrames créés dans le notebook |
+| [10 erreurs en Python qui indiquent que tu débutes](https://moncoachdata.com/blog/10-erreurs-en-python/) | [Colab](https://colab.research.google.com/drive/12h4DO-sUv8zv3uAAr-2EyDZvHKtDLIDu?usp=sharing) | — |
 
 ## Tutoriels : pandas et NumPy
 
@@ -51,6 +55,7 @@ Un jeu de données réel, une question, puis l'analyse ou le modèle de bout en 
 | [Valeurs manquantes Python : détecter et traiter avec Pandas](https://moncoachdata.com/blog/nettoyage-de-donnees-python/) | [Colab](https://colab.research.google.com/drive/13tYEAC211M6bAJYrCUmJ190kDsbZihCU?usp=sharing) | — |
 | [22 astuces Pandas qui rendront ton travail plus efficace](https://moncoachdata.com/blog/10-astuces-pandas-python/) | [Colab](https://colab.research.google.com/drive/1GgiSk3nEW7nLFEwKSMOeUwWYZPJsK3dv) | — |
 | [12 fonctions Pandas et NumPy à ne pas manquer](https://moncoachdata.com/blog/pandas-et-numpy-pour-la-data-science/) | [Colab](https://colab.research.google.com/drive/1DBCa8LRpvJvZtsuAOcVRDciS8MFLgNR8?usp=sharing) | `AirPassengers.csv` hébergé dans le dossier (nombre mensuel de passagers aériens 1949-1960, ex-dépôt Datasets) |
+| [3 fonctions NumPy pour faciliter tes analyses de données avec Pandas](https://moncoachdata.com/blog/3-fonctions-numpy/) | [Colab](https://colab.research.google.com/drive/1NnEigZOalveTSU8BqtkmC_8xTlRVf-xp?usp=sharing) | DataFrames créés dans le notebook |
 | [Analyse exploratoire de données avec Pandas](https://moncoachdata.com/blog/analyse-exploratoire-de-donnees/) | [Colab](https://colab.research.google.com/drive/1L9kMMfIKDmOiSzMcXVg9nFosViC4pLLR?usp=sharing) | — |
 
 ## Tutoriels : visualisation de données
@@ -70,6 +75,7 @@ Un jeu de données réel, une question, puis l'analyse ou le modèle de bout en 
 | [Les principaux modèles de Machine Learning expliqués simplement](https://moncoachdata.com/blog/modeles-de-machine-learning-expliques/) | [Colab](https://colab.research.google.com/drive/18Tp3kiGczR7PlHXGJSAVSvgahqPZsOh2?usp=sharing) | Datasets intégrés à scikit-learn |
 | [Modèle ARIMA avec Python - Prévisions de séries temporelles](https://moncoachdata.com/blog/modele-arima-avec-python/) | [Colab](https://colab.research.google.com/drive/1BgZOgAW4PEkqUtlp1JSmcWD-C69Jmv7w?usp=sharing) | `flights.csv` hébergé dans le dossier (copie du jeu de données `flights` de seaborn-data) |
 | [6 domaines mathématiques du Machine Learning](https://moncoachdata.com/blog/mathematiques-du-machine-learning/) | [Colab](https://colab.research.google.com/drive/1y-ZlWtt22EH7EnqotqHb4zGbUf7ZGkvO?usp=sharing) | Vecteurs et matrices créés dans le notebook |
+| [Devenir expert en Machine Learning : 6 étapes à suivre](https://moncoachdata.com/blog/devenir-expert-en-machine-learning/) | [Colab](https://colab.research.google.com/drive/19czD17S_A3pVMOCE6j4Gr-i_PmHIZUwl?usp=sharing) | — |
 | [Régression linéaire avec Python, de zéro à scikit-learn](https://moncoachdata.com/blog/regression-lineaire-avec-python/) | [Colab](https://colab.research.google.com/drive/1PRejRxdrs75qT7AnUzZCSWvhZkrCYr9u?usp=sharing) | Jeu de données généré aléatoirement dans le notebook |
 | [Régression linéaire sur un cas réel avec Scikit-Learn](https://moncoachdata.com/blog/regression-lineaire-sur-un-cas-reel/) | [Colab](https://colab.research.google.com/drive/1o8oj39aff_LViMVpH4O-6KHQx8z9T76N?usp=sharing) | California Housing, fourni par scikit-learn (`fetch_california_housing`) |
 | [6 distributions de probabilité pour la Data Science](https://moncoachdata.com/blog/6-distributions-de-probabilite-data-science/) | [Colab](https://colab.research.google.com/drive/1RSOmN_8dzYSv0A3iIp51ntTa7gZJfwnU) | Tableaux créés dans le notebook |
