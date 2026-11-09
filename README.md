@@ -49,6 +49,7 @@ Un jeu de données réel, une question, puis l'analyse ou le modèle de bout en 
 | [6 meilleures pratiques Python qui distinguent les développeurs seniors des juniors](https://moncoachdata.com/blog/meilleures-pratiques-python/) | [Colab](https://colab.research.google.com/drive/1wKQjGxzCqRS-9zfb3NiybPIK67yVdYT0?usp=sharing) | — (aucun fichier, tout le code est dans le notebook) |
 | [Les 10 concepts les plus difficiles de Python](https://moncoachdata.com/blog/10-concepts-les-plus-difficiles-de-python/) | [Colab](https://colab.research.google.com/drive/1eVsarhAqFYhdLNyOAx2WdaNYr3cZQ0vV?usp=sharing) | — (aucune donnée, tout le code est dans le notebook) |
 | [Variable PATH : comprendre et modifier le PATH](https://moncoachdata.com/blog/variable-path-pour-les-data-scientists/) | [Colab](https://colab.research.google.com/drive/1Q8D59zrw62KZv-vdYF2k-8CmLZuctdX0?usp=sharing) | — (aucune donnée, le notebook explore le PATH de la machine) |
+| [Décorateurs Python : 7 exemples testés pour alléger ton code](https://moncoachdata.com/blog/reduis-ton-code-de-moitie-avec-les-decorateurs-python/) | [Colab](https://colab.research.google.com/drive/15BymLI3KV8AZKChUEw6SgWwuy_5Xtrpg?usp=sharing) | — (aucune donnée, bibliothèque standard uniquement) |
 
 ## Tutoriels : pandas et NumPy
 
@@ -69,6 +70,9 @@ Un jeu de données réel, une question, puis l'analyse ou le modèle de bout en 
 | [Data Science avec Pandas : les concepts clés en 9 minutes](https://moncoachdata.com/blog/data-science-avec-pandas/) | [Colab](https://colab.research.google.com/drive/15iXeJIpuC-DTrwI89SPn-DvWtMlkZpoU?usp=sharing) | `titles.csv` et `credits.csv` hébergés dans `data-science-avec-pandas/` sur GitHub (Netflix Movies and TV Shows, [Kaggle](https://www.kaggle.com/datasets/dgoenrique/netflix-movies-and-tv-shows)) |
 | [20 astuces NumPy les plus élégantes](https://moncoachdata.com/blog/20-astuces-numpy-les-plus-elegantes/) | [Colab](https://colab.research.google.com/drive/1xHbpRDSOR9H5wpWrAtd05DV3ph-9aDdh?usp=sharing) | — (données générées dans le notebook) |
 | [Vectorisation Python : NumPy et Pandas sans boucles](https://moncoachdata.com/blog/vectorisation-python/) | [Colab](https://colab.research.google.com/drive/1aFALdrnH8EnKJ61FnHafl1o2y-928xB2?usp=sharing) | — (données générées dans le notebook) |
+| [7 techniques pour réduire la mémoire de Pandas](https://moncoachdata.com/blog/7-techniques-doptimisation-de-la-memoire-avec-pandas/) | [Colab](https://colab.research.google.com/drive/11TOjxASO5p0gkg_qY2uDp8o_x64t1bZy?usp=sharing) | — (aucune donnée, données générées dans le notebook) |
+| [Pivot de Pandas : pivot() et pivot_table() expliqués](https://moncoachdata.com/blog/pivot-de-pandas-un-guide-detaille-pour-savoir-quand-et-comment-lutiliser/) | [Colab](https://colab.research.google.com/drive/1-e-DtFcZSdAS0pMSpqHpGyrbFX7Tz5Iz?usp=sharing) | — (aucune donnée, données générées dans le notebook) |
+| [Chargement de données avec Pandas : 8 techniques testées](https://moncoachdata.com/blog/chargement-de-donnees-efficace-avec-pandas/) | [Colab](https://colab.research.google.com/drive/18kQtMXXyrxUrSuhQwLo36jHZqJA0uMVW?usp=sharing) | — (aucune donnée, le fichier de test est généré dans le notebook) |
 
 ## Tutoriels : SQL
 
@@ -82,6 +86,7 @@ Un jeu de données réel, une question, puis l'analyse ou le modèle de bout en 
 | [16 meilleures pratiques SQL](https://moncoachdata.com/blog/10-meilleures-pratiques-sql/) | [Colab](https://colab.research.google.com/drive/155w-TAhiyiHIwrfGHlXLV_6v6zKIo5ej?usp=sharing) | — (aucune donnée, tables créées dans le notebook avec DuckDB et SQLite) |
 | [Ordre d'exécution SQL : comment le moteur lit ta requête](https://moncoachdata.com/blog/sql-ordre-dexecution-des-requetes/) | [Colab](https://colab.research.google.com/drive/1N7J-bmEdv_zMdUiF-_3WMA633QndHxBV?usp=sharing) | — (aucune donnée, PostgreSQL installé et tables créées dans le notebook) |
 | [Requêtes SQL avancées : 10 exemples testés sur PostgreSQL](https://moncoachdata.com/blog/top-10-des-requetes-sql-avancees/) | [Colab](https://colab.research.google.com/drive/1goCs8tiP0iRayWfeN2ShWi1arWJr_1RH?usp=sharing) | — (aucune donnée, PostgreSQL installé et tables créées dans le notebook) |
+| [Fonctions Window SQL : guide testé sur PostgreSQL](https://moncoachdata.com/blog/le-guide-pour-maitriser-les-fonctions-window-de-sql/) | [Colab](https://colab.research.google.com/drive/1b1YekJRn47ajqMgi2ZkJO-z7_G_wMdp2?usp=sharing) | — (aucune donnée, les tables sont créées dans le notebook) |
 
 ## Tutoriels : visualisation de données
 
@@ -97,6 +102,7 @@ Un jeu de données réel, une question, puis l'analyse ou le modèle de bout en 
 |---|---|---|
 | [20 concepts de statistiques pour Data Scientists](https://moncoachdata.com/blog/20-concepts-de-statistiques/) | [Colab](https://colab.research.google.com/drive/1zoQ-ckNeM8BbwHxbG7aJ0D4HzwBfcQOJ?usp=sharing) | — (aucune donnée à télécharger, données simulées dans le notebook) |
 | [12 exemples de Machine Learning avec scikit-learn](https://moncoachdata.com/blog/12-exemples-de-machine-learning-tires-du-monde-reel/) | [Colab](https://colab.research.google.com/drive/1uMGKEpcgqcbTPuR6wg-anrrYShvs4sFY?usp=sharing) | — (aucune donnée à télécharger, jeux de données fournis avec scikit-learn) |
+| [10 algorithmes de Machine Learning pour débutants](https://moncoachdata.com/blog/les-10-meilleurs-algorithmes-dapprentissage-automatique-pour-les-data-scientists-debutants/) | [Colab](https://colab.research.google.com/drive/1JxALerfe6F98l02ldng4sBqPRzAvlkO_?usp=sharing) | — (aucune donnée, données générées dans le notebook) |
 | [Apprendre le Machine Learning avec Python et Scikit-learn](https://moncoachdata.com/blog/apprendre-machine-learning-avec-python/) | [Colab](https://colab.research.google.com/drive/1TEq9rMhRGo7F9KvQuBahqdWYQDZAHSl9?usp=sharing) | `games.csv` hébergé dans le dossier (jeux de société BoardGameGeek, scrapés par Sean Beck) |
 | [Machine Learning : l'algorithme des k plus proches voisins](https://moncoachdata.com/blog/algorithme-des-k-plus-proches-voisins/) | [Colab](https://colab.research.google.com/drive/11DAn25PiKLf2n30hlT6mZ7-UiQymOoGI?usp=sharing) | `movies_recommendation_data.csv` (30 films, données d'illustration) |
 | [Les principaux modèles de Machine Learning expliqués simplement](https://moncoachdata.com/blog/modeles-de-machine-learning-expliques/) | [Colab](https://colab.research.google.com/drive/18Tp3kiGczR7PlHXGJSAVSvgahqPZsOh2?usp=sharing) | Datasets intégrés à scikit-learn |
