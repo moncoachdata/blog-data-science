@@ -9,7 +9,7 @@ Les notebooks s'ouvrent dans Google Colab (lien dans les tableaux). Seuls les no
 Le dépôt reste à plat (un dossier par article) pour que les liens existants ne cassent pas ; seul ce README classe les articles :
 
 - **Projets complets** : un jeu de données réel et une démarche de bout en bout.
-- **Tutoriels** : une notion ou une bibliothèque, avec des exemples courts, classés par thème (Python, pandas et NumPy, visualisation, Machine Learning).
+- **Tutoriels** : une notion ou une bibliothèque, avec des exemples courts, classés par thème (Python, pandas et NumPy, SQL, visualisation, Machine Learning).
 
 ## Projets complets
 
@@ -39,17 +39,19 @@ Un jeu de données réel, une question, puis l'analyse ou le modèle de bout en 
 | [Web scraping avec Pandas](https://moncoachdata.com/blog/web-scraping-avec-pandas/) | [Colab](https://colab.research.google.com/drive/1zwxw07pvE_CkksYhI5UpiW07D0QVI6SC?usp=sharing) | — (lecture en direct de Wikipédia, avec un en-tête `User-Agent`) |
 | [Web scraping des matchs de football des Coupes du Monde](https://moncoachdata.com/blog/web-scraping-des-matchs-de-football/) | Colab à venir | — (lecture en direct de Wikipédia, avec un en-tête `User-Agent`) |
 | [14 fonctions Pandas pour le Data Cleaning](https://moncoachdata.com/blog/14-fonctions-pandas-pour-data-science/) | [Colab](https://colab.research.google.com/drive/18JUPISNkWPPkDwZ34rEM9AO2Zpx0H5fp?usp=sharing) | `fifa_worldcup_matches.csv`, `fifa_worldcup_fixture.csv` et `fifa_worldcup_missing_data.csv` hébergés dans le dossier `14-fonctions-pandas-pour-data-science` ; données issues de Wikipédia ([CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)) |
-| [SQLite avec Python : Analyse de bases de données](https://moncoachdata.com/blog/sqlite-python/) | [Colab](https://colab.research.google.com/drive/1HbO3iJEKh-EcaU2-R22h6f8BHrcEre6p) | `airlines.dat`, `airports.dat` et `routes.dat` hébergés dans le dossier ([OpenFlights](https://openflights.org/data), licence Open Database License, à créditer), base SQLite construite dans le notebook ; lus aussi par l'article « Visualisation de données en Python » |
 | [10 outils de manipulation et traitement d'images en Python](https://moncoachdata.com/blog/10-outils-de-traitement-dimages-en-python/) | [Colab](https://colab.research.google.com/drive/10KCQTMK7olmd3UFV_PaKiEZpkEPUCc99) | — |
 | [Python vs R : le duel](https://moncoachdata.com/blog/duel-python-vs-r/) | [Colab](https://colab.research.google.com/drive/1cGyarAWJzh33jz8xSlqJVwH-aLUEB94J) | `nba_2013.csv` hébergé dans le dossier |
 | [5 astuces de traitement de données avec Python](https://moncoachdata.com/blog/5-methodes-traitement-de-donnees-avec-python/) | [Colab](https://colab.research.google.com/drive/1oejU50ip7XQRYqCz2rLH_YZhWiutor4E) | Listes et DataFrames créés dans le notebook |
 | [10 erreurs en Python qui indiquent que tu débutes](https://moncoachdata.com/blog/10-erreurs-en-python/) | [Colab](https://colab.research.google.com/drive/12h4DO-sUv8zv3uAAr-2EyDZvHKtDLIDu?usp=sharing) | — |
+| [Mojo pour IA](https://moncoachdata.com/blog/mojo-pour-ia/) | [Colab](https://colab.research.google.com/drive/1gV6cap8Xs4N44DC9bRSp7UeSlnptXP1m?usp=sharing) | — (Mojo installé avec `pip install mojo max` dans le notebook) |
+| [6 meilleures pratiques Python qui distinguent les développeurs seniors des juniors](https://moncoachdata.com/blog/meilleures-pratiques-python/) | [Colab](https://colab.research.google.com/drive/1wKQjGxzCqRS-9zfb3NiybPIK67yVdYT0?usp=sharing) | — (aucun fichier, tout le code est dans le notebook) |
+| [Les 10 concepts les plus difficiles de Python](https://moncoachdata.com/blog/10-concepts-les-plus-difficiles-de-python/) | [Colab](https://colab.research.google.com/drive/1eVsarhAqFYhdLNyOAx2WdaNYr3cZQ0vV?usp=sharing) | — (aucune donnée, tout le code est dans le notebook) |
+| [Variable PATH : comprendre et modifier le PATH](https://moncoachdata.com/blog/variable-path-pour-les-data-scientists/) | [Colab](https://colab.research.google.com/drive/1Q8D59zrw62KZv-vdYF2k-8CmLZuctdX0?usp=sharing) | — (aucune donnée, le notebook explore le PATH de la machine) |
 
 ## Tutoriels : pandas et NumPy
 
 | Article | Notebook | Données |
 |---|---|---|
-| [SQL vs pandas : le guide pour comparer les deux](https://moncoachdata.com/blog/sql-vs-pandas/) | [Colab](https://colab.research.google.com/drive/1EXtuI7fnP1CvGhlJ2IS0p6nPyoeGn0sK?usp=sharing) | `titanic.csv` hébergé dans le dossier (891 passagers, copie du jeu de données public de [seaborn-data](https://github.com/mwaskom/seaborn-data), identique octet pour octet) |
 | [Mémo Pandas pour le traitement de données](https://moncoachdata.com/blog/pandas-pour-le-traitement-de-donnees/) | [Colab](https://colab.research.google.com/drive/1UdTqvWOlL_n7dPLUTUYzEcNvf7S7eCkG?usp=sharing) | DataFrames créés dans le notebook |
 | [8 façons de filtrer un DataFrame Pandas : Guide Pratique](https://moncoachdata.com/blog/filtrer-un-dataframe-pandas/) | [Colab](https://colab.research.google.com/drive/18EDg3pdmzRdJ2jCVtiw9mhWNyhgykgOL?usp=sharing) | DataFrame créé dans le notebook |
 | [Reshape ou remodeler les données avec Pandas](https://moncoachdata.com/blog/remodeler-les-donnees-avec-pandas/) | [Colab](https://colab.research.google.com/drive/1vxnHTMb9PU5vYs3EyxhANS8jIocneCnY?usp=sharing) | DataFrames créés dans le notebook |
@@ -60,6 +62,22 @@ Un jeu de données réel, une question, puis l'analyse ou le modèle de bout en 
 | [12 fonctions Pandas et NumPy à ne pas manquer](https://moncoachdata.com/blog/pandas-et-numpy-pour-la-data-science/) | [Colab](https://colab.research.google.com/drive/1DBCa8LRpvJvZtsuAOcVRDciS8MFLgNR8?usp=sharing) | `AirPassengers.csv` hébergé dans le dossier (nombre mensuel de passagers aériens 1949-1960, ex-dépôt Datasets) |
 | [3 fonctions NumPy pour faciliter tes analyses de données avec Pandas](https://moncoachdata.com/blog/3-fonctions-numpy/) | [Colab](https://colab.research.google.com/drive/1NnEigZOalveTSU8BqtkmC_8xTlRVf-xp?usp=sharing) | DataFrames créés dans le notebook |
 | [Analyse exploratoire de données avec Pandas](https://moncoachdata.com/blog/analyse-exploratoire-de-donnees/) | [Colab](https://colab.research.google.com/drive/1L9kMMfIKDmOiSzMcXVg9nFosViC4pLLR?usp=sharing) | — |
+| [Données manquantes avec Pandas](https://moncoachdata.com/blog/traitement-des-donnees-manquantes/) | [Colab](https://colab.research.google.com/drive/1Yzuszvrr52P_F6-4GEEGmgSerihAa9G0?usp=sharing) | — (données générées dans le notebook) |
+| [GroupBy de Pandas : maîtriser cette fonction en 10 étapes](https://moncoachdata.com/blog/groupby-de-pandas/) | [Colab](https://colab.research.google.com/drive/1TR6_kTTQj46cHI8OEHGCyzop8YGkML_f?usp=sharing) | — (DataFrame créé dans le notebook) |
+| [Data Science avec Pandas : les concepts clés en 9 minutes](https://moncoachdata.com/blog/data-science-avec-pandas/) | [Colab](https://colab.research.google.com/drive/15iXeJIpuC-DTrwI89SPn-DvWtMlkZpoU?usp=sharing) | `titles.csv` et `credits.csv` hébergés dans `data-science-avec-pandas/` sur GitHub (Netflix Movies and TV Shows, [Kaggle](https://www.kaggle.com/datasets/dgoenrique/netflix-movies-and-tv-shows)) |
+| [20 astuces NumPy les plus élégantes](https://moncoachdata.com/blog/20-astuces-numpy-les-plus-elegantes/) | [Colab](https://colab.research.google.com/drive/1xHbpRDSOR9H5wpWrAtd05DV3ph-9aDdh?usp=sharing) | — (données générées dans le notebook) |
+| [Vectorisation Python : NumPy et Pandas sans boucles](https://moncoachdata.com/blog/vectorisation-python/) | [Colab](https://colab.research.google.com/drive/1aFALdrnH8EnKJ61FnHafl1o2y-928xB2?usp=sharing) | — (données générées dans le notebook) |
+
+## Tutoriels : SQL
+
+| Article | Notebook | Données |
+|---|---|---|
+| [SQLite avec Python : Analyse de bases de données](https://moncoachdata.com/blog/sqlite-python/) | [Colab](https://colab.research.google.com/drive/1HbO3iJEKh-EcaU2-R22h6f8BHrcEre6p) | `airlines.dat`, `airports.dat` et `routes.dat` hébergés dans le dossier ([OpenFlights](https://openflights.org/data), licence Open Database License, à créditer), base SQLite construite dans le notebook ; lus aussi par l'article « Visualisation de données en Python » |
+| [SQL vs pandas : le guide pour comparer les deux](https://moncoachdata.com/blog/sql-vs-pandas/) | [Colab](https://colab.research.google.com/drive/1EXtuI7fnP1CvGhlJ2IS0p6nPyoeGn0sK?usp=sharing) | `titanic.csv` hébergé dans le dossier (891 passagers, copie du jeu de données public de [seaborn-data](https://github.com/mwaskom/seaborn-data), identique octet pour octet) |
+| [30 requêtes SQL expliquées par leurs équivalents Pandas](https://moncoachdata.com/blog/requetes-sql-expliquees/) | [Colab](https://colab.research.google.com/drive/1jupgsgQiwDK3JXwFLHZH41HAIlJffn_h?usp=sharing) | `Chinook_Sqlite.sqlite` hébergé dans `requetes-sql-expliquees/` sur GitHub (base [Chinook](https://github.com/lerocha/chinook-database)) |
+| [Améliore tes compétences SQL avec Python](https://moncoachdata.com/blog/competences-sql-avec-python/) | [Colab](https://colab.research.google.com/drive/11av_WASfh8qR9Y168l2AD5nwheCUtsGa?usp=sharing) | — (base SQLite créée dans le notebook) |
+| [SQL pour l'analyse de données : du SELECT aux fenêtres](https://moncoachdata.com/blog/sql-pour-lanalyse-de-donnees/) | [Colab](https://colab.research.google.com/drive/1szna1q3TyIJZvYBZKtcoCm2dNEh2fcX6?usp=sharing) | `Chinook_Sqlite.sqlite` hébergé dans `requetes-sql-expliquees/` sur GitHub (base [Chinook](https://github.com/lerocha/chinook-database)) |
+| [16 meilleures pratiques SQL](https://moncoachdata.com/blog/10-meilleures-pratiques-sql/) | [Colab](https://colab.research.google.com/drive/155w-TAhiyiHIwrfGHlXLV_6v6zKIo5ej?usp=sharing) | — (aucune donnée, tables créées dans le notebook avec DuckDB et SQLite) |
 
 ## Tutoriels : visualisation de données
 
@@ -88,7 +106,6 @@ Un jeu de données réel, une question, puis l'analyse ou le modèle de bout en 
 | [9 visualisations Seaborn pour la Data Science](https://moncoachdata.com/blog/seaborn-pour-la-data-science/) | [Colab](https://colab.research.google.com/drive/1KQ-DX5UcWHxHN2PN7TCyScnm7rtJJTRp?usp=sharing) | — (jeu de données iris chargé avec `sns.load_dataset`) |
 | [Le TOP des méthodes de Séries Temporelles avec Pandas](https://moncoachdata.com/blog/methodes-de-series-temporelles-avec-pandas/) | [Colab](https://colab.research.google.com/drive/1Oi9U-Xki66TVFUoLDM9fB67WggrkDDZm?usp=sharing) | — (cours d'action simulé, généré dans le notebook avec une graine fixe ; remplace l'ancien `FB.csv`) |
 | [5 signes d'un niveau de programmation avancée en Python](https://moncoachdata.com/blog/programmation-avancee-en-python/) | [Colab](https://colab.research.google.com/drive/1oUDpakSXHskwLDzU9RnLAMNt9rwC1DTq?usp=sharing) | — (aucune donnée ; le fichier de logs est créé dans le notebook) |
-| [Améliore tes compétences SQL avec Python](https://moncoachdata.com/blog/competences-sql-avec-python/) | [Colab](https://colab.research.google.com/drive/11av_WASfh8qR9Y168l2AD5nwheCUtsGa?usp=sharing) | — (base SQLite créée dans le notebook) |
 | [Pandas avec la Programmation Orientée Objet](https://moncoachdata.com/blog/pandas-avec-la-programmation-orientee-objet/) | [Colab](https://colab.research.google.com/drive/1aRNyiwAqC6ROkJ6wGtjPeOFFEgtUtijg?usp=sharing) | — (aucune donnée ; les DataFrames sont créés dans le notebook) |
 | [10 erreurs à éviter pour maximiser l'efficacité et la performance de Pandas](https://moncoachdata.com/blog/efficacite-et-performance-de-pandas/) | [Colab](https://colab.research.google.com/drive/1B9pR0cEYcsvAOVQOW1oxT4XVAXk_Lo82?usp=sharing) | — (données générées dans le notebook) |
 
