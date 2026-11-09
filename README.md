@@ -32,6 +32,8 @@ Un jeu de données réel, une question, puis l'analyse ou le modèle de bout en 
 |---|---|---|
 | [Boucles FOR en Python : guide complet, des bases à l'avancé](https://moncoachdata.com/blog/python-boucles-for/) | [Colab](https://colab.research.google.com/drive/1A1SXVPJ28JvCHkyE2XOVcH8Q3a3peqvH) | `iris.csv` hébergé dans le dossier (copie du jeu de données public de seaborn-data) et `gdp.csv` créé dans le notebook |
 | [Données mutables et immuables Python](https://moncoachdata.com/blog/donnees-mutables-et-immuables-python/) | [Colab](https://colab.research.google.com/drive/1UyNixcSRM5a7rZ0u325AnFRZeHIVaavx) | — |
+| [Mauvais programmeur Python : 11 habitudes à corriger](https://moncoachdata.com/blog/11-habitudes-qui-font-de-vous-un-mauvais-programmeur-python/) | [Colab](https://colab.research.google.com/drive/1LILgq-XIJDhipIwvvSvpxzzZY7l6oB5n?usp=sharing) | — (aucune donnée, tout le code est dans le notebook) |
+| [36 astuces Python pour écrire un meilleur code](https://moncoachdata.com/blog/21-astuces-et-concepts-python-pour-ameliorer-ton-code/) | [Colab](https://colab.research.google.com/drive/17gl1rTVB0LCLBlLbIYSYVrSNWUumrqrr?usp=sharing) | — (aucune donnée, tout le code est dans le notebook) |
 | [Les structures de données Python](https://moncoachdata.com/blog/devenir-python-ninja-structures-de-donnees/) | [Colab](https://colab.research.google.com/drive/1u9UhBkQZKPljNF6WzCwXc7L9HLprMu39) | — |
 | [Programmation Orientée Objet en Python](https://moncoachdata.com/blog/programmation-oriente-objet-en-python/) | [Colab](https://colab.research.google.com/drive/1_Qn8PjW_NQcPK0KCKXwFXO4hxQlEoNJc) | — |
 | [25 extraits de code Python de référence pour ton travail quotidien](https://moncoachdata.com/blog/25-extraits-de-code-python/) | [Colab](https://colab.research.google.com/drive/17wRbkMRvdsgd56w5rNPDchIg44U_rdzo) | — |
@@ -79,6 +81,7 @@ Un jeu de données réel, une question, puis l'analyse ou le modèle de bout en 
 | [SQL pour l'analyse de données : du SELECT aux fenêtres](https://moncoachdata.com/blog/sql-pour-lanalyse-de-donnees/) | [Colab](https://colab.research.google.com/drive/1szna1q3TyIJZvYBZKtcoCm2dNEh2fcX6?usp=sharing) | `Chinook_Sqlite.sqlite` hébergé dans `requetes-sql-expliquees/` sur GitHub (base [Chinook](https://github.com/lerocha/chinook-database)) |
 | [16 meilleures pratiques SQL](https://moncoachdata.com/blog/10-meilleures-pratiques-sql/) | [Colab](https://colab.research.google.com/drive/155w-TAhiyiHIwrfGHlXLV_6v6zKIo5ej?usp=sharing) | — (aucune donnée, tables créées dans le notebook avec DuckDB et SQLite) |
 | [Ordre d'exécution SQL : comment le moteur lit ta requête](https://moncoachdata.com/blog/sql-ordre-dexecution-des-requetes/) | [Colab](https://colab.research.google.com/drive/1N7J-bmEdv_zMdUiF-_3WMA633QndHxBV?usp=sharing) | — (aucune donnée, PostgreSQL installé et tables créées dans le notebook) |
+| [Requêtes SQL avancées : 10 exemples testés sur PostgreSQL](https://moncoachdata.com/blog/top-10-des-requetes-sql-avancees/) | [Colab](https://colab.research.google.com/drive/1goCs8tiP0iRayWfeN2ShWi1arWJr_1RH?usp=sharing) | — (aucune donnée, PostgreSQL installé et tables créées dans le notebook) |
 
 ## Tutoriels : visualisation de données
 
@@ -92,6 +95,8 @@ Un jeu de données réel, une question, puis l'analyse ou le modèle de bout en 
 
 | Article | Notebook | Données |
 |---|---|---|
+| [20 concepts de statistiques pour Data Scientists](https://moncoachdata.com/blog/20-concepts-de-statistiques/) | [Colab](https://colab.research.google.com/drive/1zoQ-ckNeM8BbwHxbG7aJ0D4HzwBfcQOJ?usp=sharing) | — (aucune donnée à télécharger, données simulées dans le notebook) |
+| [12 exemples de Machine Learning avec scikit-learn](https://moncoachdata.com/blog/12-exemples-de-machine-learning-tires-du-monde-reel/) | [Colab](https://colab.research.google.com/drive/1uMGKEpcgqcbTPuR6wg-anrrYShvs4sFY?usp=sharing) | — (aucune donnée à télécharger, jeux de données fournis avec scikit-learn) |
 | [Apprendre le Machine Learning avec Python et Scikit-learn](https://moncoachdata.com/blog/apprendre-machine-learning-avec-python/) | [Colab](https://colab.research.google.com/drive/1TEq9rMhRGo7F9KvQuBahqdWYQDZAHSl9?usp=sharing) | `games.csv` hébergé dans le dossier (jeux de société BoardGameGeek, scrapés par Sean Beck) |
 | [Machine Learning : l'algorithme des k plus proches voisins](https://moncoachdata.com/blog/algorithme-des-k-plus-proches-voisins/) | [Colab](https://colab.research.google.com/drive/11DAn25PiKLf2n30hlT6mZ7-UiQymOoGI?usp=sharing) | `movies_recommendation_data.csv` (30 films, données d'illustration) |
 | [Les principaux modèles de Machine Learning expliqués simplement](https://moncoachdata.com/blog/modeles-de-machine-learning-expliques/) | [Colab](https://colab.research.google.com/drive/18Tp3kiGczR7PlHXGJSAVSvgahqPZsOh2?usp=sharing) | Datasets intégrés à scikit-learn |
